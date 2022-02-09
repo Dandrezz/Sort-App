@@ -12,8 +12,8 @@ const AppRouter = () => {
                 <Route exact path="/heapsort" element={<HeapSortScreen/>}/>
                 <Route exact path="/quicksort" element={<QuickSortScreen/>}/>
                 <Route exact path="/insertsort" element={<InserSortScreen/>}/>
-                <Route exact path="/" element={<HomeScreen/>}/>
-                <Route path="*" element={<Navigate replace to="/" />} />
+                <Route exact path="/Sort-App" element={<HomeScreen/>}/>
+                <Route path="*" element={<Navigate replace to="/Sort-App" />} />
             </Routes>
         </BrowserRouter>
     )
