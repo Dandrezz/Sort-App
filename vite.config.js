@@ -3,6 +3,6 @@ import reactRefresh from '@vitejs/plugin-react-refresh'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base:'https://dandrezz.github.io/',
+  base:'https://dandrezz.github.io/Sort-App/',
   plugins: [reactRefresh()]
 })
