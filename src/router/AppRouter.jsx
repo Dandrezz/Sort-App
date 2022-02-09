@@ -13,7 +13,7 @@ const AppRouter = () => {
                 <Route exact path="/quicksort" component={QuickSortScreen}/>
                 <Route exact path="/insertsort" component={InserSortScreen}/>
                 <Route exact path="/" component={HomeScreen}/>
-                <Redirect to="error"/>
+                <Redirect to="/"/>
             </Switch>
         </BrowserRouter>
     )
